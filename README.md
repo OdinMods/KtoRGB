@@ -12,7 +12,8 @@ static float Temperature = 6600.0f; // white point
 static float KTemperature;
 KTemperature = Temperature / 100.0f;
 
-if (KTemperature <= 66)
+        // red
+        if (KTemperature <= 66)
         {
             Red = 255;
         }
